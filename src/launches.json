@@ -1,0 +1,110 @@
+[
+  {
+    "flight_number": 1,
+    "mission_name": "FalconSat",
+    "mission_id": [],
+    "launch_date_utc": "2006-03-24T22:30:00.000Z",
+    "rocket": {
+      "rocket_id": "falcon1",
+      "rocket_name": "Falcon 1",
+      "rocket_type": "Merlin A",
+      "second_stage": {
+        "block": 1,
+        "payloads": [
+          {
+            "payload_id": "FalconSAT-2",
+            "nationality": "United States",
+            "manufacturer": "SSTL",
+            "payload_type": "Satellite",
+            "payload_mass_kg": 20,
+            "payload_mass_lbs": 43,
+            "orbit": "LEO"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "flight_number": 2,
+    "mission_name": "DemoSat",
+    "mission_id": [],
+    "launch_date_utc": "2007-03-21T01:10:00.000Z",
+    "rocket": {
+      "rocket_id": "falcon1",
+      "rocket_name": "Falcon 1",
+      "rocket_type": "Merlin A",
+      "second_stage": {
+        "block": 1,
+        "payloads": [
+          {
+            "payload_id": "DemoSAT",
+            "nationality": "United States",
+            "manufacturer": "SpaceX",
+            "payload_type": "Satellite",
+            "payload_mass_kg": null,
+            "payload_mass_lbs": null,
+            "orbit": "LEO"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "flight_number": 3,
+    "mission_name": "Trailblazer",
+    "mission_id": [],
+    "launch_date_utc": "2008-08-03T03:34:00.000Z",
+    "rocket": {
+      "rocket_id": "falcon1",
+      "rocket_name": "Falcon 1",
+      "rocket_type": "Merlin C",
+      "second_stage": {
+        "block": 1,
+        "payloads": [
+          {
+            "payload_id": "Trailblazer",
+            "nationality": "United States",
+            "manufacturer": "Space Dev",
+            "payload_type": "Satellite",
+            "payload_mass_kg": null,
+            "payload_mass_lbs": null,
+            "orbit": "LEO"
+          },
+          {
+            "payload_id": "PRESat",
+            "nationality": "United States",
+            "manufacturer": null,
+            "payload_type": "Satellite",
+            "payload_mass_kg": null,
+            "payload_mass_lbs": null,
+            "orbit": "LEO"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "flight_number": 6,
+    "mission_name": "Falcon 9 Test Flight",
+    "launch_date_utc": "2010-06-04T18:45:00.000Z",
+    "rocket": {
+      "rocket_id": "falcon9",
+      "rocket_name": "Falcon 9",
+      "rocket_type": "v1.0",
+      "second_stage": {
+        "block": 1,
+        "payloads": [
+          {
+            "payload_id": "Dragon Qualification Unit",
+            "nationality": "United States",
+            "manufacturer": "SpaceX",
+            "payload_type": "Dragon Boilerplate",
+            "payload_mass_kg": null,
+            "payload_mass_lbs": null,
+            "orbit": "LEO"
+          }
+        ]
+      }
+    }
+  }
+]
