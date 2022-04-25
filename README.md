@@ -52,7 +52,7 @@ En este proyecto existe 2 arrays: **launches** y **rockets** los cuales tiene la
 
 Cada registro de los arrays se relacionan con el campo **rocket_id**
 
-El objetivo de este desafio es armar un array partiendo con la informacion de los arrays descritos arriba con esta estructura:
+El objetivo de este desafio es armar un nuevo array partiendo de la informacion de los arrays **launches** y **rockets** con la sigiente estructura:
 
 ## response
 ```js
@@ -79,4 +79,4 @@ El objetivo de este desafio es armar un array partiendo con la informacion de lo
 ]
 ```
 
-Para ello debes modificar la funcion **buildResponse** que se encuentra en **src/index.js** y levantar el server (**npm start**)
+Para ello debes modificar la funcion **buildResponse** que se encuentra en **src/index.js** y levantar el server (**npm start**) o si se prefiere usar el comando **npm run test** en la terminal

@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "majestic",
-    "test": "jest --coverage --coverageReporters='text-summary' --silent"
+    "test": "jest --coverage --coverageReporters='text-summary'"
   },
   "keywords": [],
   "author": "",
